@@ -134,6 +134,8 @@ export default function EmbeddedFile({
             <meta name='twitter:player:stream' content={`${host}/r/${file.name}`} />
             <meta name='twitter:player:stream:content_type' content={file.mimetype} />
             <meta name='twitter:title' content={file.name} />
+            <meta name='twitter:player:width' content='1920' />
+            <meta name='twitter:player:height' content='1080' />
 
             {file.thumbnail && (
               <>
